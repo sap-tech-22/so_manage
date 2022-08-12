@@ -1,0 +1,10 @@
+---
+applications:
+ - name: so-manage
+   host: so-manage
+   buildpack: nodejs_buildpack
+   memory: 128M
+   command: node index
+   properties: 
+     test1: testval1
+     test2: testval2
