@@ -135,7 +135,9 @@ app.post('/createso', (req, res) => {
                 }],
                 conversation: {
                     memory: {
-                        orderID: JSON.parse(response.body).ID
+                        orderID: JSON.parse(response.body).ID,
+                        userID: 'C01',
+                        userName: 'Anupam'
                     }
                 }
             });
